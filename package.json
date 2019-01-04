@@ -1,0 +1,19 @@
+{
+  "name": "node-native-xor",
+  "version": "0.0.1",
+  "description": "An example of including assembler level XOR operations in a nodejs module",
+  "main": "index.js",
+  "author": "shadowcodex <jsduncan98@gmail.com>",
+  "license": "MIT",
+  "gypfile":true,
+  "scripts": {
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean"
+  },
+  "devDependencies": {
+    "node-gyp": "^3.8.0"
+  },
+  "dependencies": {
+    "node-addon-api": "^1.6.2"
+  }
+}
