@@ -8,7 +8,9 @@
   "gypfile":true,
   "scripts": {
     "build": "node-gyp rebuild",
-    "clean": "node-gyp clean"
+    "clean": "node-gyp clean",
+    "start": "node index.js",
+    "scratch": "node-gyp rebuild && node index.js"
   },
   "devDependencies": {
     "node-gyp": "^3.8.0"
